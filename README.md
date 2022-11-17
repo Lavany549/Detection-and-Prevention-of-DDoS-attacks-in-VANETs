@@ -9,27 +9,27 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
 
   This project requires python 3.9.15, and the following python libraries installed:
 
-   * ###### [Numpy](https://numpy.org/)
-   * ###### [Scapy](https://scapy.net/)
-   * ###### [Pandas](https://pandas.pydata.org/)
+   + ###### [Numpy](https://numpy.org/)
+   + ###### [Scapy](https://scapy.net/)
+   + ###### [Pandas](https://pandas.pydata.org/)
 
   Also require the following softwares to be installed
 
-   * ###### Emulator : [POX](https://noxrepo.github.io/pox-doc/html/)
-   * ###### Controller : [MiniNet](https://noxrepo.github.io/pox-doc/html/)
+   + ###### Emulator : [POX](https://noxrepo.github.io/pox-doc/html/)
+   + ###### Controller : [MiniNet](https://noxrepo.github.io/pox-doc/html/)
 
 ### Code
    * Copy the *l3_ddosMitigationFinal1.py* and *detectionUsingEntropy.py* files in *.../pox/pox/forwarding/* folder. 
 
    * Copy the *trained_model.joblib* file in *.../pox/* folder. 
   
-   You will also be required to use the *flooding.py* , *traffic.py* and *attack.py* Python files for generating flooding, traffic and attack packets respectively . The file *detectionUsingEntropy.py* is used to calculate the entropy. 
+    You will also be required to use the *flooding.py* , *traffic.py* and *attack.py* Python files for generating flooding, traffic and attack packets respectively . The file *detectionUsingEntropy.py* is used to calculate the entropy. 
  
 
 ### Run
   #### Step 1: Network setup and Traffic Generation(Done for data which is not necessary now )
   * #### Terminal 1 : Starting the POX Controller
-     Open the terminal and start the POX controller with modified l3_learning component (l3_ddosMitigationFinal1.py) which is used to run the POX's learning switch.Additional functions such as Statisic collection, Entropy computation and Machine Learning classifier, are added here
+      Open the terminal and start the POX controller with modified l3_learning component (l3_ddosMitigationFinal1.py) which is used to run the POX's learning switch. Additional functions such as Statisic collection, Entropy computation and Machine Learning classifier, are added here
      
      ``` $ cd pox ```
      
@@ -52,6 +52,7 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
      All the Information will be displayed
    
   * #### Testing Connectivity (Optional)
+  
      From Terminal 2  run
    
      ``` mininet > xterm h1```
