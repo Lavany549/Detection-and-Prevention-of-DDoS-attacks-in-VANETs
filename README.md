@@ -23,7 +23,7 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
 
    * Copy the *trained_model.joblib* file in *.../pox/* folder. 
   
-    You will also be required to use the *flooding.py* , *traffic.py* and *attack.py* Python files for generating flooding, traffic and attack packets respectively . The file *detectionUsingEntropy.py* is used to calculate the entropy. 
+   You will also be required to use the *flooding.py* , *traffic.py* and *attack.py* Python files for generating flooding, traffic and attack packets respectively . The file *detectionUsingEntropy.py* is used to calculate the entropy. 
  
 
 ### Run
