@@ -98,7 +98,7 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
   
   * Now Go to Terminal 1 and check whether the results are displayed.
   
-    If yes, stop Terminal 2 by *Ctrl + Z* and stop the Terminal 3 and 4 now using the same command *Ctrl + Z*.
+    If yes, stop Terminal 2 by *Ctrl + Z* and stop the Terminal 3 , 4 and 5 now using the same command *Ctrl + Z*.
   
   * You can observe the results in Terminal 1.
 
