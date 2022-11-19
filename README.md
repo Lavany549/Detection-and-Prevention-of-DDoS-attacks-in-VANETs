@@ -24,7 +24,7 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
      ```sudo apt-get install mininet```
      
    + ###### Emulator : [POX](https://noxrepo.github.io/pox-doc/html/)
-     ```../mininet/util/install.sh -p```
+     ```.../mininet/util/install.sh -p```
 
 ### Code
    * Copy the *l3_ddosMitigationFinal1.py* and *detectionUsingEntropy.py* files in *.../pox/pox/forwarding/* folder. 
