@@ -20,6 +20,7 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
      
    + ###### Controller : [MiniNet](https://noxrepo.github.io/pox-doc/html/)
      ```git clone git://github.com/mininet/mininet```
+     
      ```sudo apt-get install mininet```
      
    + ###### Emulator : [POX](https://noxrepo.github.io/pox-doc/html/)
