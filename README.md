@@ -57,30 +57,28 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
    
      ``` mininet > xterm h1```
 
-     An another terminal lets say Terminal 3 is opened with *node h1* , Now run 
+     An another terminal lets say Terminal 3 is opened for *node h1* , Now run 
    
      ```# ping 10.0.0.2 -c 4``` 
    
-     This shows the data of packet if connected successfully.Close this node if connected successfully.
+     This shows the data of packet if connected successfully.
 
   #### Step 2: Integrating the Utilities in the Controller
   * From Terminal 2 run
   
     ``` mininet > xterm h1```
 
-    Another terminal pops up lets say Terminal 3 is opened with *node h1* , Now run
+    Another terminal pops up lets say Terminal 3 is opened for *node h1* , Now run
   
     ```# python3 traffic.py -s 4 -e 65```
   
-    This will run the traffic with 10.0.0.4 to 10.0.0.64 hosts as destination Nodes.
-  
-    Now the mininet starts sending the traffic.
+    This will produce the required traffic data into the network
   
   * From Terminal 2 open another *node h2*,
 
     ```mininet > xterm h2```
   
-    Another terminal pops up lets say Terminal 4 is opened with *node h2* , Now run
+    Another terminal pops up lets say Terminal 4 is opened for *node h2* , Now run
 
     ```# python3 attack.py 10.0.0.6```
   
@@ -90,15 +88,12 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
 
     ```mininet > xterm h3```
   
-    Another terminal pops up lets say Terminal 5 is opened with *node h3* , Now run
+    Another terminal pops up lets say Terminal 5 is opened for *node h3* , Now run
 
     ```# python3 flooding.py```
   
-    This creates flooding packets into the network.
+    This will produce the flooding packets into the network.
   
-  * Now Go to Terminal 1 and check whether the results are displayed.
-  
-    If yes, stop Terminal 2 by *Ctrl + Z* and stop the Terminal 3 , 4 and 5 now using the same command *Ctrl + Z*.
-  
-  * You can observe the results in Terminal 1.
+  * Upon starting each traffic, the resulting entropy calculation and classifier outputs can be found in Terminal 1. 
+  * The traffic can be ended by pressing **Ctrl + Z** in their respective terminal
 
