@@ -29,7 +29,7 @@ They are vulnerable to cyber attacks, especially Distributed Denial of Service a
 ### Code
    * Copy the *l3_ddosMitigationFinal1.py* and *detectionUsingEntropy.py* files in *.../pox/pox/forwarding/* folder. 
 
-   * Copy the *trained_model.joblib , entropy.joblib* file in *.../pox/* folder. 
+   * Copy the *trained_model.joblib , entropy_model.joblib* file in *.../pox/* folder. 
   
    You will also be required to use the *flooding.py* , *traffic.py* and *attack.py* Python files for generating flooding, traffic and attack packets respectively . The file *detectionUsingEntropy.py* is used to calculate the entropy. 
  
